@@ -1,0 +1,12 @@
+Library
+/Assembly-CSharp.csproj
+/Assembly-CSharp-Editor.csproj
+/VReader.csproj
+/VReader.Editor.csproj
+/VReader.sln
+/*.collabignore
+/Temp
+/obj
+/*.csproj
+/.vs
+Build
