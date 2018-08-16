@@ -3,7 +3,7 @@ Library
 /Assembly-CSharp-Editor.csproj
 /VReader.csproj
 /VReader.Editor.csproj
-/VReader.sln
+/*.sln
 /*.collabignore
 /Temp
 /obj
