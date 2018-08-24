@@ -39,7 +39,6 @@ public class TestManager : MonoBehaviour
         //android input
 #else
         SwitchCameraSpot(Input.GetAxis("Horizontal"));
-        if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
         if (Input.GetKeyDown(KeyCode.S)) texts.alpha = texts.alpha == 0 ? 1 : 0;
         if (Input.GetKeyDown(KeyCode.W)) lake.SetActive(!lake.activeSelf);
         if (Input.GetKeyDown(KeyCode.M))
@@ -49,6 +48,7 @@ public class TestManager : MonoBehaviour
             print(volume);
             audioMixer.SetFloat("Volume", volume == -80 ? 0 : -80);
         }
+        if (Input.GetKeyDown(KeyCode.Escape)) Application.Quit();
 #endif
     }
 
