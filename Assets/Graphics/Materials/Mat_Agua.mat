@@ -100,12 +100,12 @@ Material:
     - _DstBlend: 10
     - _EmissionEnabled: 1
     - _FlipbookMode: 0
-    - _GlossMapScale: 0.518
+    - _GlossMapScale: 0.804
     - _Glossiness: 0.799
     - _GlossinessSource: 0
     - _GlossyReflections: 0
     - _LightingEnabled: 1
-    - _Metallic: 0.316
+    - _Metallic: 0.083
     - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
